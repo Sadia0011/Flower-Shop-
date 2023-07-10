@@ -1,0 +1,26 @@
+.home {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info {
+    width: 50%;
+}
+
+.home-pic {
+    width: 635px;
+    height: 800px;
+    /* padding: 50px 240px 4017px 1045px; */
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    gap: 10px;
+}
