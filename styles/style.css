@@ -1,10 +1,49 @@
 /* home section styles */
+.navigation {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(90 degree, rgba(233, 162, 212, 0.05));
+    height: 200px;
+    justify-content: space-around;
+}
+
+.page-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* .nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+
+} */
+
+.nav-bar li,
+a {
+    display: inline flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+    padding-right: 10px;
+    color: #914a59;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .home {
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -61,7 +100,6 @@
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -69,26 +107,44 @@
 .feature-pics {
     display: inline flex;
     justify-content: center;
-    /* width: 464px;
-    height: 538px; */
+    width: 464px;
+    height: 538px;
     padding: 10px;
-    gap: 5px;
+    gap: 10px;
     width: 100%;
+
 
 }
 
+.feature-pic-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
 #feature-pic-1 {
+    width: 310px;
+    height: 428px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    background: url('../Flower Asset/pngwing\ 6.png'), lightgray 50% / cover no-repeat;
 
 }
 
 #feature-pic-2 {
+    width: 370px;
+    height: 370px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 #feature-pic-3 {
+    width: 314px;
+    height: 471px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
@@ -134,7 +190,7 @@
 /* hot deal section styles */
 .hot-deal {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     align-items: center;
@@ -152,6 +208,11 @@
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+}
+
+.hot-deal-off {
+
+    color: #E55473;
 }
 
 .hot-deal-description {
