@@ -9,7 +9,6 @@ body {
     align-items: center;
     border-radius: 8px;
     background: rgba(245, 197, 207, 0.05);
-    /* height: 150px; */
     justify-content: space-around;
 }
 
@@ -42,11 +41,8 @@ a {
 
 .home {
     background: rgba(229, 84, 115, 0.10);
-    /* width: 1920px; */
-    /* height: 850px; */
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
 }
 
 .home-info {
@@ -70,7 +66,6 @@ a {
 .home-pic img {
     width: 435px;
     height: 100%;
-    /* padding-bottom: 0px !important; */
 }
 
 .btn-primary {
@@ -110,23 +105,18 @@ a {
     display: flex;
     gap: 10px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .feature-pics {
     display: flex;
     gap: 1px;
     justify-content: center;
-    /* padding-bottom: 10px;
-    margin-bottom: 50px; */
-    /* align-items: center; */
 
 }
 
 .feature-pic-div {
     width: 304px;
     height: 357px;
-    /* border-radius: 300px 300px 0px 0px; */
 
 }
 
@@ -145,34 +135,19 @@ a {
     font-weight: 600;
     text-decoration-line: underline;
     margin-left: -60px;
-    /* margin-bottom: 50px; */
 }
 
 #feature-pic-1 {
-    /* width: 310px; */
-    /* height: 428px; */
-    /* width: 80%;
-    height: 100%; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    /* background: url('../Flower Asset/pngwing\ 6.png'), lightgray 50% / cover no-repeat; */
-
 }
 
 #feature-pic-2 {
-    /* width: 370px;
-    height: 370px; */
-    /* width: 80%;
-    height: 100%; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 #feature-pic-3 {
-    /* width: 314px;
-    height: 471px; */
-    /* width: 80%;
-    height: 100%; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
@@ -257,7 +232,7 @@ a {
     /* width: 940px;
     height: 129px;  */
     width: 1140px;
-    height: 120px;
+    height: 520px;
     margin: auto;
     margin-top: 50px !important;
     margin-bottom: 50px !important;
@@ -338,12 +313,10 @@ a {
     display: flex;
     gap: 10px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .email {
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
@@ -357,29 +330,27 @@ a {
 /* career styles */
 .career {
     margin-top: 50px;
-    background: rgba(245, 173, 188, 0.1);
+    background: rgba(240, 179, 230, 0.1);
     background-repeat: no-repeat;
-    /* width: 1920px; */
-    /* height: 850px; */
     display: flex;
     justify-content: space-around;
 }
 
-/* .career-pic {
-    width: 200px;
-} */
+.career-info {
+    text-align: center;
+}
 
 /* footer styles */
 .footer {
+    margin-bottom: -40px;
     margin-top: 50px;
-    /* width: 1922px;
-    height: 449px; */
     background: #111010;
+
 }
 
 .footer-info {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 5px;
 }
 
 .footer-title {
@@ -391,17 +362,15 @@ a {
 
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
 }
 
 .footer-copyright {
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
     font-family: Lato;
     font-size: 12px;
     font-weight: 400;
+    padding-bottom: 5px;
 }
